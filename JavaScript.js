@@ -107,10 +107,19 @@ frutas.forEach(function(fruta) {
 
 //Objeto
 let pessoa = {
-    nome: "João",
-    idade: 25,
-    cidade: "São Paulo"
+    nome: "Carlos",
+    idade: 30,
+    cidade: "Rio de Janeiro"
 };
-console.log(pessoa.nome);  // "João"
-pessoa.idade = 26;  // Alterando a idade
-console.log(pessoa.idade);  // 26
+
+// Acessando propriedades
+console.log(pessoa.nome);  // "Carlos"
+
+// Alterando propriedades
+pessoa.idade = 31;
+console.log(pessoa.idade);  // 31
+
+// Iterando sobre as propriedades do objeto
+for (let chave in pessoa) {
+    console.log(chave + ": " + pessoa[chave]);
+}
