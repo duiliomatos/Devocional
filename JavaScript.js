@@ -74,3 +74,43 @@ botao.addEventListener("click", function() {
 let titulo = document.querySelector("h1");
 titulo.style.color = "blue";  // Altera a cor do texto para azul
 titulo.innerText = "Texto alterado com JavaScript";  // Modifica o texto
+
+//Arrays e Objetos
+let frutas = ["maçã", "banana", "laranja"];
+console.log(frutas[0]);  // "maçã"
+console.log(frutas[1]);  // "banana"
+
+/*
+Métodos Comuns de Arrays
+push(): Adiciona um novo elemento ao final do array.
+pop(): Remove o último elemento do array.
+shift(): Remove o primeiro elemento do array.
+unshift(): Adiciona um novo elemento ao início do array.
+forEach(): Executa uma função em cada elemento do array.
+map(): Cria um novo array com base em uma função aplicada aos seus elementos.
+*/
+
+let frutas = ["maçã", "banana", "laranja"];
+
+// Adicionando elementos
+frutas.push("abacaxi");
+console.log(frutas);  // ["maçã", "banana", "laranja", "abacaxi"]
+
+// Removendo o último elemento
+frutas.pop();
+console.log(frutas);  // ["maçã", "banana", "laranja"]
+
+// Iterando sobre o array
+frutas.forEach(function(fruta) {
+    console.log(fruta);
+});
+
+//Objeto
+let pessoa = {
+    nome: "João",
+    idade: 25,
+    cidade: "São Paulo"
+};
+console.log(pessoa.nome);  // "João"
+pessoa.idade = 26;  // Alterando a idade
+console.log(pessoa.idade);  // 26
