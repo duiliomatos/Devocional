@@ -26,3 +26,12 @@ console.log("true && false:", x && y);
 console.log("true || false:", x || y);
 console.log("!true:", !x);
 
+//Estrutura de Controle
+
+if (condição) {
+    //Executa...
+} else if (outra condição) {
+    //Executa...
+} else {
+    //Executa...
+}
