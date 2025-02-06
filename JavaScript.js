@@ -1,5 +1,4 @@
 //Definição de variável
-
 var nome = "João";   // Forma antiga (evitar)
 let idade = 25;       // Forma correta. Pode ser alterado depois
 const PI = 3.1415;    // Constante, não pode ser alterada
@@ -27,16 +26,17 @@ console.log("true || false:", x || y);
 console.log("!true:", !x);
 
 //Estrutura de Controle
+let adulto = 18;
 
-if (condição) {
-    //Executa...
-} else if (outra condição) {
-    //Executa...
+if (adulto < 18) {
+    console.log("Você é menor de idade.");
+} else if (adulto === 18) {
+    console.log("Você acabou de atingir a maioridade!");
 } else {
     //Executa...
 }
 
- //Ou
+//Ou
 let nota = 7;
 let resultado = nota >= 6 ? "Aprovado" : "Reprovado";
 console.log(resultado);
@@ -44,4 +44,11 @@ console.log(resultado);
  //Loop For
 for (let i = 1; i <= 5; i++) {
     console.log("Número:", i);
+}
+
+//Loop While
+let contador = 0;
+while (contador < 3) {
+    console.log("Contagem:", contador);
+    contador++;
 }
