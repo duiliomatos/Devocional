@@ -40,3 +40,8 @@ if (condição) {
 let nota = 7;
 let resultado = nota >= 6 ? "Aprovado" : "Reprovado";
 console.log(resultado);
+
+ //Loop For
+for (let i = 1; i <= 5; i++) {
+    console.log("Número:", i);
+}
