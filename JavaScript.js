@@ -35,3 +35,8 @@ if (condição) {
 } else {
     //Executa...
 }
+
+ //Ou
+let nota = 7;
+let resultado = nota >= 6 ? "Aprovado" : "Reprovado";
+console.log(resultado);
