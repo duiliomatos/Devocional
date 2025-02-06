@@ -33,5 +33,10 @@ if (idade < 18) {
 } else if (idade === 18) {
     console.log("Você acabou de atingir a maioridade!");
 } else {
-    console.log("Você é maior de idade.");
+    //Executa...
 }
+
+//Ou
+let nota = 7;
+let resultado = nota >= 6 ? "Aprovado" : "Reprovado";
+console.log(resultado);
