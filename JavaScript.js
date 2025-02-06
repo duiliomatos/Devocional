@@ -26,10 +26,12 @@ console.log("true || false:", x || y);
 console.log("!true:", !x);
 
 //Estrutura de Controle
-if (condição) {
-    //Executa...
-} else if (outra condição) {
-    //Executa...
+let idade = 18;
+
+if (idade < 18) {
+    console.log("Você é menor de idade.");
+} else if (idade === 18) {
+    console.log("Você acabou de atingir a maioridade!");
 } else {
-    //Executa...
+    console.log("Você é maior de idade.");
 }
