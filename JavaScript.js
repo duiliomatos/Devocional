@@ -52,3 +52,25 @@ while (contador < 3) {
     console.log("Contagem:", contador);
     contador++;
 }
+
+/*Manipulação do DOM (Document Object Model)
+O DOM permite que você interaja com os elementos da página HTML. Você pode adicionar, remover ou modificar conteúdo e atributos desses elementos utilizando JavaScript.
+
+Seletores Comuns:
+- getElementById: Seleciona um elemento com um ID específico.
+- getElementsByClassName: Seleciona elementos com uma classe específica.
+- querySelector: Seleciona o primeiro elemento que corresponde a um seletor CSS.
+- querySelectorAll: Seleciona todos os elementos que correspondem a um seletor CSS.
+*/
+
+// Selecionando elementos
+let botao = document.getElementById("meuBotao");
+let paragrafo = document.getElementById("minhaParagrafo");
+// Modificando conteúdo
+botao.addEventListener("click", function() {
+    paragrafo.innerHTML = "Você clicou no botão!";
+});
+
+let titulo = document.querySelector("h1");
+titulo.style.color = "blue";  // Altera a cor do texto para azul
+titulo.innerText = "Texto alterado com JavaScript";  // Modifica o texto
