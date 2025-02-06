@@ -45,3 +45,10 @@ console.log(resultado);
 for (let i = 1; i <= 5; i++) {
     console.log("Número:", i);
 }
+
+//Loop While
+let contador = 0;
+while (contador < 3) {
+    console.log("Contagem:", contador);
+    contador++;
+}
