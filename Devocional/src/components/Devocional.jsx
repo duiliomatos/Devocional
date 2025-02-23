@@ -12,7 +12,7 @@ function Devocional() {
   const [versoAtual, setVersoAtual] = useState(versosBiblicos[0]);
 
   const getVerso = () => {
-    // Seleciona um índice aleatório
+    // Seleciona um índice aleatório do array
     const indiceAleatorio = Math.floor(Math.random() * versosBiblicos.length);
     setVersoAtual(versosBiblicos[indiceAleatorio]);
   };
